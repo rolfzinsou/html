@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RICK-ROSS SHOP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="padding-top: 110px; background-color: #06883b; font-family: 'Times New Roman', Times, serif;">
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" height="90" width="100"/></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-secondary">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Maillots.html">Maillots/Ensembles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Chaussures.html">Chaussures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Ballons.html">Ballons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Gants.html">Gants</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--corps-->
+    <div class="bienvenue">
+        <h1 class="fw-bold text-light d-flex justify-content-center align-items-center">
+            Bienvenue sur le site <br>RICK-ROSS SHOP🛍️
+        </h1>
+        <p class="text-center text-white d-flex justify-content-center align-items-center">
+            Clique sur ce que tu veux pour faire ta commande <br>
+            plus vite et facilement directement depuis ici
+        </p>
+    </div>
+    <div class="icon">
+        <div class="hand milieu"></div>
+        <div class="hand gauche"></div>
+    </div>
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" data-bs-interval="6000" style="background-image: url('img/WhatsApp Image 2025-06-27 at 20.41.42.jpeg');">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                    <h1 class="display-4">
+                        Maillots & Ensembles👕🩳
+                    </h1>
+                    <p>
+                        ⚽ T’es chaud ? On a ce qu’il te faut.
+                        Maillots de foot, ensembles stylés, tenues qui claquent sur
+                        le terrain, vibes sport & style garantis.
+
+                    </p>
+                    <button class="btn-custom" onclick="location.href='Maillots.html'">
+                        Voir plus
+                    </button>
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="6000" style="background-image: url('img/WhatsApp Image 2025-06-27 at 20.48.52.jpeg');">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                    <h1 class="display-4">
+                        Chaussures👟
+                    </h1>
+                    <p >
+                        Chaussures de football légères et performantes, <br>
+                        conçues pour un confort optimal et une adhérence maximale sur le terrain. <br>
+                        Idéales pour les joueurs rapides et techniques.
+                    </p>
+                    <button class="btn-custom" onclick="location.href='Chaussures.html'">
+                        Voir plus
+                    </button>
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="6000" style="background-image: url('img/bien-choisir-son-ballon-de-foot.jpg');">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                    <h1 class="display-4">
+                        Ballons⚽️
+                    </h1>
+                    <p >
+                        Ballon de football résistant et bien équilibré, <br>
+                        idéal pour l’entraînement comme pour les matchs. <br>
+                        Bonne prise au pied, excellent rebond et durabilité assurée.
+                    </p>
+                    <button class="btn-custom" onclick="location.href='Ballons.html'">
+                        Voir plus
+                    </button>
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="6000" style="background-image: url('img/WhatsApp Image 2025-06-27 at 20.48.52.jpeg');">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                    <h1 class="display-4">
+                        Gants🧤
+                    </h1>
+                    <p >
+                        Gants de gardien confortables et résistants <br>
+                        avec une excellente adhérence. Parfaits pour les entraînements et les matchs, <br>
+                        même sous la pluie.
+                    </p>
+                    <button class="btn-custom" onclick="location.href='Gants.html'">
+                        Voir plus
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- Tu peux dupliquer pour ajouter plus de slides -->
+            <!--
+            <div class="carousel-item" style="background-image: url('img/slide2.jpg');">
+              <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                <h1 class="display-4">Deuxième slide</h1>
+                <p class="lead">Une autre description ici.</p>
+              </div>
+            </div>
+            -->
+
+        </div>
+
+        <!-- Contrôles gauche / droite -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="dropdown-divider"></div>
+    <div class="row text-light d-flex flex-column justify-content-center align-items-center text-center" style="height: 30vh">
+        <h1 class="fw-bold">
+            Produits du jour et ceux <br>
+            en promotionnn!!!
+        </h1>
+        <i class="bi bi-arrow-down" style="font-size: 40px;"></i>
+    </div>
+
+    <div id="heroCarousel-2" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" data-bs-interval="6000" style="background-image: url('img/WhatsApp Image 2025-06-27 at 20.39.42 (2).jpeg');">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                    <h1 class="display-4">
+                        👕🩳Real Madrid
+                    </h1>
+                    <p>
+                        Le nouveau maillot du <br>
+                        Real Madrid est dispo, Passe vite ta commande
+                    </p>
+                    <a href="https://wa.me/221779699079?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20le%20nouveau%20maillot%20du%20Real%20Madrid:http%3A%2F%2Flocalhost%3A63342%2FSite%2520vente%2520%2Findex.html" target="_blank">
+                        <button class="btn-custom">
+                            📞 Commander
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="6000" style="background-image: url('img/WhatsApp Image 2025-06-27 at 20.48.00.jpeg');">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                    <h1 class="display-4">
+                        Promo Chaussures👟
+                    </h1>
+                    <p >
+                        Profitez des Nike Pro à <br>
+                        -15% avant Samedi prochain🥳
+                    </p>
+                    <a href="https://wa.me/221779699079?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20les%20chaussures%20Nike%20en%20promo:%20http%3A%2F%2Flocalhost%3A63342%2FSite%2520vente%2520%2Findex.html" target="_blank">
+                        <button class="btn-custom">
+                            📞 Commander
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel-2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel-2" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+
+</body>
+</html>
